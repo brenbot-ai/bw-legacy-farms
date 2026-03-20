@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 620">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&amp;display=swap');
+    </style>
+    <clipPath id="shield-clip">
+      <path d="M52,115 L448,115 L448,368 Q446,528 250,582 Q54,528 52,368 Z"/>
+    </clipPath>
+    <clipPath id="tl-clip">
+      <rect x="52" y="115" width="182" height="138"/>
+    </clipPath>
+    <clipPath id="tr-clip">
+      <rect x="266" y="115" width="182" height="138"/>
+    </clipPath>
+    <clipPath id="bl-clip">
+      <path d="M52,283 L234,283 L234,582 Q140,558 82,494 Q52,455 52,368 Z"/>
+    </clipPath>
+    <clipPath id="br-clip">
+      <path d="M266,283 L448,283 L448,368 Q448,455 418,494 Q360,558 266,582 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Shield background -->
+  <path d="M52,115 L448,115 L448,368 Q446,528 250,582 Q54,528 52,368 Z" fill="#0e0e0e"/>
+
+  <!-- White cross within shield -->
+  <rect x="234" y="115" width="32" height="467" clip-path="url(#shield-clip)" fill="white"/>
+  <rect x="52" y="249" width="396" height="34" clip-path="url(#shield-clip)" fill="white"/>
+
+  <!-- ============================== -->
+  <!-- TOP-LEFT QUADRANT: CORN STALKS -->
+  <!-- ============================== -->
+  <g clip-path="url(#tl-clip)" fill="white">
+    <!-- Stalk 1 left -->
+    <rect x="101" y="158" width="6" height="86" rx="2"/>
+    <!-- Corn ear 1 (solid filled) -->
+    <ellipse cx="107" cy="164" rx="11" ry="19"/>
+    <!-- Kernel rows -->
+    <line x1="100" y1="150" x2="100" y2="182" stroke="#0e0e0e" stroke-width="2.5"/>
+    <line x1="104" y1="146" x2="104" y2="183" stroke="#0e0e0e" stroke-width="2.5"/>
+    <line x1="108" y1="146" x2="108" y2="183" stroke="#0e0e0e" stroke-width="2.5"/>
+    <line x1="114" y1="149" x2="114" y2="183" stroke="#0e0e0e" stroke-width="2.5"/>
+    <!-- Husk leaves -->
+    <path d="M96,155 Q82,164 90,180" stroke="white" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M118,155 Q132,164 124,180" stroke="white" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <!-- Foliage leaves -->
+    <path d="M104,205 Q78,198 72,183" stroke="white" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M104,215 Q130,207 136,192" stroke="white" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <!-- Stalk 2 center (tallest) -->
+    <rect x="138" y="141" width="6" height="103" rx="2"/>
+    <ellipse cx="144" cy="148" rx="12" ry="20"/>
+    <line x1="136" y1="129" x2="136" y2="168" stroke="#0e0e0e" stroke-width="2.5"/>
+    <line x1="140" y1="128" x2="140" y2="168" stroke="#0e0e0e" stroke-width="2.5"/>
+    <line x1="144" y1="128" x2="144" y2="168" stroke="#0e0e0e" stroke-width="2.5"/>
+    <line x1="148" y1="129" x2="148" y2="168" stroke="#0e0e0e" stroke-width="2.5"/>
+    <line x1="152" y1="133" x2="152" y2="168" stroke="#0e0e0e" stroke-width="2.5"/>
+    <path d="M133,141 Q119,151 127,167" stroke="white" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M155,141 Q169,151 161,167" stroke="white" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M141,194 Q114,187 108,172" stroke="white" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M141,205 Q167,197 173,182" stroke="white" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <!-- Stalk 3 right -->
+    <rect x="177" y="155" width="6" height="89" rx="2"/>
+    <ellipse cx="183" cy="162" rx="10" ry="17"/>
+    <line x1="176" y1="148" x2="176" y2="178" stroke="#0e0e0e" stroke-width="2.5"/>
+    <line x1="180" y1="146" x2="180" y2="179" stroke="#0e0e0e" stroke-width="2.5"/>
+    <line x1="184" y1="146" x2="184" y2="179" stroke="#0e0e0e" stroke-width="2.5"/>
+    <line x1="190" y1="149" x2="190" y2="179" stroke="#0e0e0e" stroke-width="2.5"/>
+    <path d="M172,155 Q158,164 166,179" stroke="white" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M194,155 Q208,164 200,179" stroke="white" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M180,208 Q154,201 148,186" stroke="white" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <!-- Ground line -->
+    <path d="M70,243 Q100,238 130,241 Q160,236 195,240 Q212,237 228,240" stroke="white" stroke-width="2.5" fill="none"/>
+  </g>
+
+  <!-- ======================== -->
+  <!-- TOP-RIGHT QUADRANT: OAK  -->
+  <!-- ======================== -->
+  <g clip-path="url(#tr-clip)" fill="white">
+    <!-- Trunk -->
+    <rect x="347" y="210" width="14" height="40" rx="3"/>
+    <!-- Root flares -->
+    <path d="M347,245 Q336,250 329,255" stroke="white" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M361,245 Q372,250 379,255" stroke="white" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <!-- Canopy: layered circles for organic look -->
+    <circle cx="354" cy="182" r="45" fill="white"/>
+    <circle cx="375" cy="170" r="40" fill="white"/>
+    <circle cx="395" cy="178" r="36" fill="white"/>
+    <circle cx="406" cy="198" r="30" fill="white"/>
+    <circle cx="398" cy="220" r="22" fill="white"/>
+    <!-- Interior branch cuts for texture -->
+    <line x1="354" y1="208" x2="362" y2="222" stroke="#0e0e0e" stroke-width="2"/>
+    <line x1="375" y1="170" x2="371" y2="190" stroke="#0e0e0e" stroke-width="2"/>
+    <line x1="395" y1="178" x2="388" y2="198" stroke="#0e0e0e" stroke-width="2"/>
+    <!-- Ground line -->
+    <path d="M280,248 Q310,243 344,246 Q370,241 400,244 Q420,241 442,244" stroke="white" stroke-width="2.5" fill="none"/>
+  </g>
+
+  <!-- =============================== -->
+  <!-- BOTTOM-LEFT: VINTAGE TRACTOR    -->
+  <!-- =============================== -->
+  <g clip-path="url(#bl-clip)" fill="white">
+    <!-- Large rear wheel -->
+    <circle cx="116" cy="400" r="46" fill="none" stroke="white" stroke-width="7"/>
+    <circle cx="116" cy="400" r="32" fill="none" stroke="white" stroke-width="3"/>
+    <circle cx="116" cy="400" r="9" fill="white"/>
+    <!-- Tire lugs -->
+    <line x1="116" y1="357" x2="116" y2="347" stroke="white" stroke-width="6"/>
+    <line x1="144" y1="366" x2="149" y2="357" stroke="white" stroke-width="6"/>
+    <line x1="159" y1="389" x2="165" y2="386" stroke="white" stroke-width="6"/>
+    <line x1="152" y1="415" x2="157" y2="422" stroke="white" stroke-width="6"/>
+    <line x1="130" y1="438" x2="132" y2="445" stroke="white" stroke-width="6"/>
+    <line x1="105" y1="443" x2="103" y2="450" stroke="white" stroke-width="6"/>
+    <line x1="82" y1="432" x2="78" y2="438" stroke="white" stroke-width="6"/>
+    <line x1="71" y1="410" x2="65" y2="411" stroke="white" stroke-width="6"/>
+    <line x1="73" y1="385" x2="68" y2="381" stroke="white" stroke-width="6"/>
+    <line x1="88" y1="362" x2="84" y2="356" stroke="white" stroke-width="6"/>
+    <!-- Small front wheel -->
+    <circle cx="200" cy="414" r="24" fill="none" stroke="white" stroke-width="5"/>
+    <circle cx="200" cy="414" r="8" fill="white"/>
+    <line x1="200" y1="392" x2="200" y2="386" stroke="white" stroke-width="4"/>
+    <line x1="216" y1="399" x2="222" y2="394" stroke="white" stroke-width="4"/>
+    <line x1="218" y1="420" x2="223" y2="426" stroke="white" stroke-width="4"/>
+    <line x1="200" y1="436" x2="200" y2="442" stroke="white" stroke-width="4"/>
+    <line x1="182" y1="427" x2="178" y2="432" stroke="white" stroke-width="4"/>
+    <line x1="180" y1="406" x2="175" y2="401" stroke="white" stroke-width="4"/>
+    <!-- Tractor body -->
+    <polygon points="148,362 212,362 214,390 172,396 148,390"/>
+    <!-- Fender arch over rear wheel -->
+    <path d="M148,362 Q150,342 170,338 Q190,334 194,354 L214,354 L214,362 L148,362 Z"/>
+    <!-- Engine hood -->
+    <rect x="164" y="354" width="52" height="20" rx="3"/>
+    <!-- Radiator -->
+    <rect x="210" y="348" width="12" height="24" rx="2"/>
+    <!-- Exhaust pipe -->
+    <rect x="174" y="313" width="10" height="46" rx="3"/>
+    <ellipse cx="179" cy="312" rx="7" ry="5"/>
+    <!-- Smoke puff -->
+    <circle cx="179" cy="302" r="6"/>
+    <circle cx="186" cy="295" r="5"/>
+    <circle cx="191" cy="288" r="4"/>
+    <!-- Seat -->
+    <path d="M148,362 Q140,360 137,367 Q135,374 143,376 L148,376 Z"/>
+    <!-- Steering column/wheel -->
+    <circle cx="162" cy="354" r="10" fill="none" stroke="white" stroke-width="4"/>
+    <line x1="162" y1="344" x2="162" y2="362" stroke="white" stroke-width="3"/>
+    <!-- Front axle -->
+    <rect x="172" y="390" width="28" height="7" rx="3"/>
+  </g>
+
+  <!-- ============================== -->
+  <!-- BOTTOM-RIGHT: GRAIN SILOS      -->
+  <!-- ============================== -->
+  <g clip-path="url(#br-clip)" fill="white">
+    <!-- Grain leg tower (background) -->
+    <rect x="348" y="283" width="8" height="198" rx="2"/>
+    <rect x="362" y="283" width="8" height="198" rx="2"/>
+    <!-- X-braces -->
+    <line x1="348" y1="295" x2="370" y2="320" stroke="white" stroke-width="2.5"/>
+    <line x1="348" y1="320" x2="370" y2="295" stroke="white" stroke-width="2.5"/>
+    <line x1="348" y1="320" x2="370" y2="345" stroke="white" stroke-width="2.5"/>
+    <line x1="348" y1="345" x2="370" y2="320" stroke="white" stroke-width="2.5"/>
+    <line x1="348" y1="345" x2="370" y2="370" stroke="white" stroke-width="2.5"/>
+    <line x1="348" y1="370" x2="370" y2="345" stroke="white" stroke-width="2.5"/>
+    <line x1="348" y1="370" x2="370" y2="395" stroke="white" stroke-width="2.5"/>
+    <line x1="348" y1="395" x2="370" y2="370" stroke="white" stroke-width="2.5"/>
+    <line x1="348" y1="395" x2="370" y2="420" stroke="white" stroke-width="2.5"/>
+    <line x1="348" y1="420" x2="370" y2="395" stroke="white" stroke-width="2.5"/>
+    <line x1="348" y1="420" x2="370" y2="445" stroke="white" stroke-width="2.5"/>
+    <line x1="348" y1="445" x2="370" y2="420" stroke="white" stroke-width="2.5"/>
+    <!-- Head house at top -->
+    <rect x="340" y="280" width="38" height="18" rx="2"/>
+    <!-- Discharge spouts -->
+    <line x1="355" y1="478" x2="326" y2="458" stroke="white" stroke-width="6" stroke-linecap="round"/>
+    <line x1="355" y1="478" x2="387" y2="458" stroke="white" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Bin 1 (left, larger) -->
+    <!-- Cone roof -->
+    <polygon points="272,362 340,362 306,320"/>
+    <rect x="302" y="312" width="8" height="12" rx="2"/>
+    <!-- Cylinder body -->
+    <rect x="272" y="362" width="68" height="128" rx="3"/>
+    <!-- Stave lines (vertical) -->
+    <line x1="288" y1="362" x2="288" y2="490" stroke="#0e0e0e" stroke-width="2"/>
+    <line x1="304" y1="320" x2="304" y2="490" stroke="#0e0e0e" stroke-width="2"/>
+    <line x1="320" y1="320" x2="320" y2="490" stroke="#0e0e0e" stroke-width="2"/>
+    <line x1="336" y1="362" x2="336" y2="490" stroke="#0e0e0e" stroke-width="2"/>
+    <!-- Stiffener rings (horizontal) -->
+    <line x1="272" y1="394" x2="340" y2="394" stroke="#0e0e0e" stroke-width="2"/>
+    <line x1="272" y1="427" x2="340" y2="427" stroke="#0e0e0e" stroke-width="2"/>
+    <line x1="272" y1="460" x2="340" y2="460" stroke="#0e0e0e" stroke-width="2"/>
+    <!-- Sump cone & tube -->
+    <polygon points="272,490 262,512 350,512 340,490"/>
+    <rect x="301" y="512" width="12" height="14" rx="2"/>
+
+    <!-- Bin 2 (right, smaller) -->
+    <polygon points="362,372 414,372 388,334"/>
+    <rect x="385" y="327" width="7" height="11" rx="2"/>
+    <rect x="362" y="372" width="52" height="112" rx="3"/>
+    <line x1="375" y1="372" x2="375" y2="484" stroke="#0e0e0e" stroke-width="2"/>
+    <line x1="388" y1="334" x2="388" y2="484" stroke="#0e0e0e" stroke-width="2"/>
+    <line x1="401" y1="372" x2="401" y2="484" stroke="#0e0e0e" stroke-width="2"/>
+    <line x1="362" y1="403" x2="414" y2="403" stroke="#0e0e0e" stroke-width="2"/>
+    <line x1="362" y1="435" x2="414" y2="435" stroke="#0e0e0e" stroke-width="2"/>
+    <line x1="362" y1="464" x2="414" y2="464" stroke="#0e0e0e" stroke-width="2"/>
+    <polygon points="362,484 354,504 422,504 414,484"/>
+    <rect x="383" y="504" width="10" height="12" rx="2"/>
+  </g>
+
+  <!-- Shield border (drawn on top to clean up edges) -->
+  <path d="M52,115 L448,115 L448,368 Q446,528 250,582 Q54,528 52,368 Z"
+        fill="none" stroke="white" stroke-width="7"/>
+
+  <!-- Title text -->
+  <text x="250" y="84"
+        text-anchor="middle"
+        font-family="'Great Vibes', 'Brush Script MT', 'Segoe Script', cursive"
+        font-size="56"
+        fill="white"
+        letter-spacing="1">B &amp; W Legacy Farms</text>
+</svg>
